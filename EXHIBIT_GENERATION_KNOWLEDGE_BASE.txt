@@ -1,0 +1,926 @@
+# VISA PETITION EXHIBIT GENERATION - COMPLETE KNOWLEDGE BASE
+## For Claude AI Project Integration
+
+---
+
+## 🎯 PURPOSE
+
+This knowledge base provides complete instructions for generating professional, USCIS-compliant exhibit packages for visa petitions. Use this document in your Claude AI Project to ensure all exhibits are properly organized, numbered, and formatted according to visa category requirements.
+
+---
+
+## 📋 SUPPORTED VISA CATEGORIES
+
+### 1. **O-1A** - Extraordinary Ability in Sciences, Education, Business, Athletics
+### 2. **O-1B** - Extraordinary Ability in Arts, Motion Picture/TV
+### 3. **EB-1A** - Employment-Based First Preference (Extraordinary Ability)
+### 4. **P-1A** - Internationally Recognized Athletes
+
+---
+
+## 🗂️ EXHIBIT STRUCTURE & ORGANIZATION
+
+### Standard Exhibit Package Components (in order):
+
+1. **Table of Contents** (first page)
+   - Lists all exhibits with titles and descriptions
+   - Shows exhibit letter/number
+   - Includes page numbers for each exhibit
+
+2. **Cover Letter / Support Letter** (if applicable)
+   - Often Exhibit A
+   - Petitioner's support letter
+   - Consultation letters
+
+3. **Forms** (early in package)
+   - Form I-129 (Petition for Nonimmigrant Worker)
+   - Form I-907 (Premium Processing, if applicable)
+   - LCA (Labor Condition Application, if required)
+   - Contract/Employment agreements
+
+4. **Personal Documents** (typically early exhibits)
+   - Passport (biographical pages and stamps)
+   - Visa history documentation
+   - Educational credentials (degrees, transcripts)
+   - Professional licenses/certifications
+
+5. **Brief / Legal Argument** (if included)
+   - Detailed legal brief arguing the case
+   - May be early (Exhibit A/B) or later depending on attorney preference
+   - Typically 20-50 pages
+
+6. **Evidence Organized by Criterion** (main body)
+   - **O-1A**: 8 possible criteria (need 3)
+     * (A) Nationally/Internationally Recognized Prizes or Awards
+     * (B) Membership in Associations Requiring Outstanding Achievement
+     * (C) Published Material About Beneficiary in Professional/Major Media
+     * (D) Judging the Work of Others
+     * (E) Original Contributions of Major Significance
+     * (F) Authorship of Scholarly Articles
+     * (G) Employment in Critical/Essential Capacity for Distinguished Organizations
+     * (H) High Salary or Remuneration
+
+   - **O-1B**: 6 possible criteria (need 3)
+     * (A) Leading or Starring Role
+     * (B) Critical Reviews or Published Materials
+     * (C) Leading/Starring/Critical Role for Distinguished Organizations
+     * (D) Record of Major Commercial or Critically Acclaimed Successes
+     * (E) Significant Recognition from Organizations, Critics, Government, Experts
+     * (F) High Salary/Remuneration Relative to Others
+
+   - **EB-1A**: 10 possible criteria (need 3) OR one-time major award
+     * (1) Receipt of Lesser Nationally/Internationally Recognized Prizes/Awards
+     * (2) Membership in Associations Requiring Outstanding Achievement
+     * (3) Published Material About the Beneficiary
+     * (4) Participation as Judge of the Work of Others
+     * (5) Original Contributions of Major Significance
+     * (6) Authorship of Scholarly Articles
+     * (7) Display at Artistic Exhibitions/Showcases
+     * (8) Leading/Critical Role for Distinguished Organizations
+     * (9) High Salary/Remuneration
+     * (10) Commercial Success in Performing Arts
+
+   - **P-1A**: Requires 2 of 7 criteria (athletes)
+     * (1) Participation in Prior Season with Major U.S. Sports League/Team
+     * (2) Participation with National Team in International Competition
+     * (3) Participation in U.S. Intercollegiate Competition
+     * (4) Written Statement from Governing Body Official
+     * (5) Written Statement from Recognized Expert/Sports Media
+     * (6) International Rankings
+     * (7) Receipt of Significant Honors/Awards
+
+7. **Supporting Documentation** (organized by criterion or category)
+   - Media articles (organized chronologically or by significance)
+   - Letters of recommendation/expert letters
+   - Competition results
+   - Awards and certificates
+   - Contracts and financial documents
+   - Publication documentation
+   - Organization reputation evidence
+   - Training facility credentials
+   - Social media evidence
+   - Statistical documentation
+
+8. **Payment Evidence** (final exhibits, if applicable)
+   - Filing fee receipt
+   - Premium processing fee receipt
+   - Credit card authorization
+
+---
+
+## 🔤 EXHIBIT NUMBERING SYSTEMS
+
+### System 1: Letter-Based (Most Common)
+**Format**: Exhibit A, Exhibit B, Exhibit C, etc.
+- **Use When**: Standard visa petition filings
+- **Example Order**:
+  - Exhibit A: Table of Contents
+  - Exhibit B: Petitioner Support Letter
+  - Exhibit C: Form I-129
+  - Exhibit D: Beneficiary Passport
+  - Exhibit E: Brief
+  - Exhibit F: Awards (Criterion A)
+  - Exhibit G: Media Coverage (Criterion C)
+  - etc.
+
+### System 2: Number-Based
+**Format**: Exhibit 1, Exhibit 2, Exhibit 3, etc.
+- **Use When**: Preference of specific attorney or simple sequential organization
+- **Example Order**:
+  - Exhibit 1: Table of Contents
+  - Exhibit 2: Form I-129
+  - Exhibit 3: Passport
+  - etc.
+
+### System 3: Criterion-Based Lettering
+**Format**: Criterion A - Exhibit 1, Criterion A - Exhibit 2, etc.
+- **Use When**: Multiple pieces of evidence for single criterion
+- **Example**:
+  - Criterion A (Awards): Exhibits A-1 through A-5
+  - Criterion C (Media): Exhibits C-1 through C-12
+
+### System 4: Roman Numeral
+**Format**: Exhibit I, Exhibit II, Exhibit III, etc.
+- **Use When**: Requested by specific attorney or formal preference
+
+---
+
+## 📄 DOCUMENT CATEGORIZATION & ORGANIZATION
+
+### Category 1: Administrative Forms
+**Typical Exhibits**: A, B, or C
+- Form I-129
+- Form I-907
+- LCA documentation
+- Filing fee receipts
+- Premium processing receipts
+
+### Category 2: Personal Documents
+**Typical Exhibits**: Early in sequence
+- Passport (biographical page)
+- Passport (visa history)
+- Educational credentials
+- Professional licenses
+- Curriculum Vitae/Resume
+
+### Category 3: Legal Brief/Cover Letter
+**Typical Exhibits**: A or B, sometimes near end
+- Petitioner support letter
+- Legal brief (20-50 pages)
+- Regulatory analysis
+- Case law citations
+
+### Category 4: Consultation Letters
+**Typical Exhibits**: Early sequence
+- Labor organization consultation
+- Peer group consultation
+- Expert advisory opinion
+- No consultation available letter (with evidence of search)
+
+### Category 5: Contract & Employment Documentation
+**Typical Exhibits**: Early to mid sequence
+- Employment contract
+- Agent agreement
+- Itinerary (P-1A required)
+- Work description
+- Compensation details
+
+### Category 6: Criterion-Specific Evidence (MAIN BODY)
+**Typical Exhibits**: Mid to late sequence, organized by criterion
+
+#### For Criterion A (Awards):
+- Award certificates
+- Award descriptions
+- Award organization credibility
+- Media coverage of award
+- Previous recipients list
+- Selection process documentation
+
+#### For Criterion B (Membership):
+- Membership certificate/card
+- Association bylaws
+- Membership requirements
+- Selection criteria
+- Expert judgment documentation
+- Association prestige evidence
+
+#### For Criterion C (Published Material About Beneficiary):
+- Complete articles (with title, date, author)
+- Publication significance evidence
+- Circulation data
+- Publication credibility documentation
+- Translations (if needed)
+- Archive.org preserved URLs
+
+#### For Criterion D (Judging):
+- Invitation letters
+- Panel rosters
+- Event descriptions
+- Peer review documentation
+- Editorial board appointments
+- Grant review confirmations
+
+#### For Criterion E (Original Contributions):
+- Expert letters describing impact
+- Citation indices
+- Patent documentation
+- Implementation evidence
+- Industry adoption proof
+- Media coverage of contributions
+- Commercial success metrics
+
+#### For Criterion F (Scholarly Articles):
+- Complete article copies
+- Journal impact factors
+- Citation metrics
+- Peer review confirmation
+- Authorship role clarification
+- Publication prestige evidence
+
+#### For Criterion G (Critical Employment):
+- Employment verification letters
+- Organizational charts
+- Organization reputation evidence
+- Role description
+- Success metrics
+- Project documentation
+- Team size/budget evidence
+
+#### For Criterion H (High Salary):
+- Salary verification (contracts, offer letters)
+- Tax returns / W-2 forms
+- Comparative salary data (BLS, industry surveys)
+- Geographic comparisons
+- Expert letters on compensation
+- Equity/alternative compensation evidence
+
+### Category 7: Supporting Documentation
+**Typical Exhibits**: Following criterion evidence
+
+#### Media Coverage (organized by):
+- **Tier 1**: Major international media (ESPN, BBC, CNN, major newspapers)
+- **Tier 2**: National media (national sports networks, trade publications)
+- **Tier 3**: Regional/specialized media (local news, niche publications)
+
+#### Letters of Recommendation/Expert Letters:
+- Expert credentials
+- Letter text
+- Expert relationship to field
+- Independent verification of expertise
+
+#### Organization Reputation Evidence:
+- Company/org background
+- Revenue/employee data
+- Industry rankings
+- Awards/recognition
+- Media coverage
+- Client lists
+
+#### Training Facility Documentation (Athletes):
+- Facility reputation
+- Notable athletes who trained there
+- Coach credentials
+- Media coverage
+- Championship records
+
+#### Competition/Event Documentation:
+- Event prestige
+- Participant quality
+- Selection process
+- Results/placements
+- Media coverage
+
+#### Statistical/Ranking Evidence:
+- Official rankings
+- Performance metrics
+- Comparative statistics
+- Industry benchmarks
+
+### Category 8: Financial Evidence
+**Typical Exhibits**: End of package
+- Credit card authorization
+- Payment confirmation
+- Fee receipts
+
+---
+
+## 📊 TABLE OF CONTENTS FORMAT
+
+### Standard TOC Structure:
+```
+TABLE OF CONTENTS
+
+Exhibit A: [Document Title]
+    [Brief description of exhibit, 1-2 lines]
+    Pages: [page range]
+
+Exhibit B: [Document Title]
+    [Brief description]
+    Pages: [page range]
+
+Exhibit C: [Document Title]
+    [Brief description]
+    Pages: [page range]
+
+[Continue for all exhibits...]
+```
+
+### Example TOC for O-1A Petition:
+```
+TABLE OF CONTENTS
+
+Exhibit A: Petitioner Support Letter
+    Letter from Innovative Global Talent Agency supporting the petition for [Beneficiary Name]
+    Pages: 1-3
+
+Exhibit B: Form I-129 (Petition for Nonimmigrant Worker)
+    Completed I-129 form with all required signatures and documentation
+    Pages: 4-10
+
+Exhibit C: Beneficiary Passport
+    Biographical pages and U.S. visa history
+    Pages: 11-15
+
+Exhibit D: Legal Brief
+    Comprehensive analysis of beneficiary's qualification under O-1A criteria
+    Pages: 16-45
+
+Exhibit E: Awards and Recognition (Criterion A)
+    Documentation of nationally and internationally recognized prizes
+    Pages: 46-60
+
+Exhibit F: Media Coverage (Criterion C)
+    Published material about beneficiary in major media and trade publications
+    Pages: 61-95
+
+Exhibit G: Expert Letters (Criterion E)
+    Letters from recognized experts describing beneficiary's original contributions
+    Pages: 96-110
+
+Exhibit H: Employment Documentation (Criterion G)
+    Evidence of critical role at distinguished organizations
+    Pages: 111-125
+
+Exhibit I: Salary Documentation (Criterion H)
+    High salary evidence with industry comparisons
+    Pages: 126-135
+
+Exhibit J: Payment Receipt
+    Filing fee and premium processing receipt
+    Pages: 136-137
+```
+
+---
+
+## 🎨 VISA-SPECIFIC EXHIBIT ORGANIZATION
+
+### O-1A PETITION (Example Structure)
+
+**TYPICAL ORDER** (based on production examples):
+1. Table of Contents
+2. Support Letter / Cover Letter
+3. Form I-129
+4. Premium Processing Form I-907 (if applicable)
+5. Beneficiary Passport
+6. Beneficiary CV/Resume
+7. Legal Brief (20-40 pages)
+8. Consultation Letter OR No Consultation Available Letter
+9. Employment Contract / Agent Agreement
+10. **CRITERION A** - Awards/Prizes Evidence (10-20 pages)
+    - Award certificates
+    - Award descriptions
+    - Organization credibility
+    - Media coverage
+11. **CRITERION C** - Published Material About Beneficiary (30-60 pages)
+    - Complete articles (organized by significance)
+    - Publication credibility evidence
+    - Archive.org preserved versions
+12. **CRITERION E** - Original Contributions (20-40 pages)
+    - Expert letters
+    - Impact documentation
+    - Implementation evidence
+13. **CRITERION G** - Critical Employment (15-25 pages)
+    - Employment letters
+    - Organization reputation
+    - Role documentation
+14. **CRITERION H** - High Salary (10-15 pages)
+    - Salary verification
+    - Comparative data
+    - Expert letters
+15. Supporting Documentation
+    - Media coverage compilation
+    - Additional letters
+    - Training facility credentials (if athlete)
+16. Payment Evidence
+
+**ESTIMATED PAGE COUNT**: 150-250 pages
+
+---
+
+### P-1A PETITION (Example Structure)
+
+**TYPICAL ORDER** (based on production examples):
+1. Table of Contents
+2. Support Letter
+3. Form I-129
+4. Premium Processing Form I-907 (if applicable)
+5. Beneficiary Passport
+6. Legal Brief (15-30 pages)
+7. Consultation Letter
+8. **ITINERARY** (REQUIRED - list of specific events/competitions)
+9. Employment Contract / Agent Agreement
+10. **CRITERION 1** - Prior U.S. League Participation (if applicable)
+    - Contract documentation
+    - League verification
+    - Competition records
+11. **CRITERION 2** - National Team Participation
+    - National team roster
+    - International competition records
+    - Event documentation
+    - Results/achievements
+12. **CRITERION 5** - Expert Statements
+    - Letters from recognized sports experts
+    - Media coverage confirming recognition
+13. **CRITERION 6** - International Rankings
+    - Official ranking documentation
+    - Ranking organization credibility
+    - Historical rankings
+14. **CRITERION 7** - Significant Honors/Awards
+    - Award certificates
+    - Award significance
+    - Selection process
+15. Supporting Documentation
+    - Training facility credentials
+    - Competition history
+    - Media coverage (organized by tier)
+    - Statistical documentation
+16. Payment Evidence
+
+**ESTIMATED PAGE COUNT**: 100-200 pages
+
+---
+
+### EB-1A PETITION (Example Structure)
+
+**TYPICAL ORDER** (based on production examples):
+1. Table of Contents
+2. Cover Letter / Transmittal Letter
+3. Form I-140 (Immigrant Petition)
+4. Premium Processing Form I-907 (if applicable)
+5. Beneficiary Passport
+6. Beneficiary Educational Credentials
+7. Beneficiary CV/Resume
+8. Legal Brief (30-50 pages) - includes:
+   - Executive Summary
+   - Legal Standards
+   - Statement of Facts
+   - Criterion-by-Criterion Analysis
+   - Final Merits Determination
+   - Conclusion
+9. **CRITERION 3** - Published Material About Beneficiary (40-80 pages)
+    - Major media coverage
+    - Trade publication articles
+    - Publication significance evidence
+10. **CRITERION 4** - Judging Work of Others (15-25 pages)
+    - Peer review documentation
+    - Panel participation
+    - Editorial board appointments
+11. **CRITERION 5** - Original Contributions (30-50 pages)
+    - Expert letters (multiple independent sources)
+    - Citation evidence
+    - Implementation documentation
+    - Commercial impact
+12. **CRITERION 6** - Scholarly Articles (20-40 pages)
+    - Article copies
+    - Journal impact factors
+    - Citation metrics
+13. **CRITERION 8** - Critical Employment (20-30 pages)
+    - Employment verification
+    - Organization reputation
+    - Role significance
+14. Supporting Documentation
+    - Additional expert letters
+    - Organization credibility
+    - Field context documentation
+15. Payment Evidence
+
+**ESTIMATED PAGE COUNT**: 180-300 pages
+
+---
+
+## 🔍 DOCUMENT-SPECIFIC ORGANIZATION RULES
+
+### FORMS (always early in package)
+**Order within Forms section**:
+1. Main petition form (I-129 or I-140)
+2. Premium processing form (I-907)
+3. Supplement forms
+4. Fee receipts
+
+### PASSPORTS
+**Organization**:
+- Biographical page (first)
+- All visa stamps (chronological)
+- Entry/exit stamps (if relevant)
+- Previous visa approvals (if extension)
+
+### EDUCATIONAL CREDENTIALS
+**Order**:
+1. Highest degree first (PhD, then Master's, then Bachelor's)
+2. Credential evaluations (if foreign degrees)
+3. Transcripts (if relevant)
+4. Professional licenses/certifications
+
+### BRIEF/LEGAL ARGUMENT
+**Standard Structure** (20-50 pages):
+1. **Introduction** (1-2 pages)
+   - Case overview
+   - Visa category explanation
+2. **Background** (2-4 pages)
+   - Beneficiary biography
+   - Professional history
+3. **Legal Standards** (3-5 pages)
+   - Regulatory framework
+   - CFR citations
+   - Applicable case law
+4. **Statement of Facts** (3-5 pages)
+   - Beneficiary accomplishments
+   - Chronological narrative
+5. **Criterion-by-Criterion Analysis** (15-30 pages)
+   - Each criterion claimed
+   - Evidence description
+   - Regulatory compliance argument
+6. **Final Merits Determination** (EB-1A only, 2-4 pages)
+   - Totality of evidence
+   - Sustained national/international acclaim
+   - Standing at top of field
+7. **Conclusion** (1 page)
+   - Summary
+   - Request for approval
+
+### MEDIA ARTICLES
+**Organization Rules**:
+1. **By Significance** (Recommended):
+   - Major international media first
+   - National media second
+   - Regional/specialized third
+
+2. **By Date** (Alternative):
+   - Chronological (newest first OR oldest first)
+
+3. **By Topic** (Alternative):
+   - Group by subject matter
+
+**Article Format** (each article):
+- Title page with source, date, author, URL
+- Archived URL (archive.org)
+- Complete article text
+- Publication credibility page (circulation, reputation, reach)
+
+### EXPERT LETTERS
+**Organization**:
+1. Expert credentials page (CV or bio)
+2. Letter text
+3. Expert-beneficiary relationship clarification
+4. Expert's own recognition evidence
+
+**Letter Requirements**:
+- Letterhead (if organization-affiliated)
+- Expert qualifications explicitly stated
+- Specific examples of beneficiary's contributions
+- Comparison to others in field
+- Independent perspective (not employer/family)
+- Original signature
+
+### AWARDS DOCUMENTATION
+**Per Award**:
+1. Award certificate/trophy photo
+2. Award description (from awarding organization)
+3. Award significance evidence:
+   - Selection process
+   - Previous winners
+   - Number of recipients
+   - Geographic scope
+4. Awarding organization credibility:
+   - Organization background
+   - Membership/reach
+   - Industry standing
+5. Media coverage of award (if available)
+
+### ORGANIZATION REPUTATION
+**Evidence Structure**:
+1. Organization overview (About Us page)
+2. Financial data (revenue, employees, market share)
+3. Industry rankings/recognition
+4. Client list / notable projects
+5. Awards received by organization
+6. Media coverage of organization
+
+### TRAINING FACILITIES (Athletes)
+**Evidence Structure**:
+1. Facility overview
+2. Notable athletes trained there
+3. Championship records
+4. Coach credentials and achievements
+5. Facility rankings/reputation
+6. Media coverage
+
+---
+
+## 🌐 ARCHIVE.ORG / URL PRESERVATION
+
+### When to Archive:
+- ALL media articles
+- Publication "About Us" pages
+- Organization websites
+- Ranking pages
+- Award organization pages
+- Social media posts (if using as evidence)
+
+### Archive Format in Exhibits:
+1. Live URL
+2. Archive.org preserved URL
+3. Archive date
+4. Screenshot (if visual content important)
+
+**Example**:
+```
+Original URL: https://www.espn.com/mma/story/_/id/123456/article-title
+Archived URL: https://web.archive.org/web/20250115/espn.com/mma/story/_/id/123456
+Archive Date: January 15, 2025
+```
+
+---
+
+## 💡 BEST PRACTICES
+
+### 1. **Exhibit Titles Should Be Descriptive**
+**Good**: "Exhibit F: ESPN Feature Article - 'Rising Star in Mixed Martial Arts' (June 2024)"
+**Bad**: "Exhibit F: Article"
+
+### 2. **Organize Evidence by Strength**
+Within each criterion, lead with your strongest evidence
+
+### 3. **Include Context Pages**
+Before each criterion section, include a brief context page explaining what follows
+
+### 4. **Number All Pages**
+Use consistent page numbering throughout (bottom center or bottom right)
+
+### 5. **Use Divider/Separator Pages**
+Between major sections or criteria, use separator pages for clarity
+
+### 6. **Maintain Professional Formatting**
+- Consistent fonts (Times New Roman 12pt or Arial 11pt)
+- 1-inch margins
+- Single or 1.15 line spacing
+- Black text on white background
+
+### 7. **Quality Over Quantity**
+Focus on strong, relevant evidence rather than padding with weak materials
+
+### 8. **Cross-Reference**
+In the brief, reference specific exhibit letters/numbers when citing evidence
+
+### 9. **Translations**
+All non-English documents must include certified translations with translator credentials
+
+### 10. **Final Package Check**
+- Table of Contents matches actual exhibits
+- Page numbers are accurate
+- All exhibits referenced in brief are included
+- No missing pages
+- All required forms are signed
+- Payment evidence is current
+
+---
+
+## 📏 SIZE & LENGTH GUIDELINES
+
+### Typical Package Sizes by Visa Type:
+
+**O-1A**: 150-250 pages
+- Brief: 20-40 pages
+- Forms: 10-15 pages
+- Personal docs: 5-10 pages
+- Criterion evidence: 100-180 pages
+
+**O-1B**: 120-200 pages
+- Brief: 15-30 pages
+- Forms: 10-15 pages
+- Personal docs: 5-10 pages
+- Criterion evidence: 80-140 pages
+
+**P-1A**: 100-200 pages
+- Brief: 15-30 pages
+- Forms: 10-15 pages
+- Itinerary: 5-10 pages
+- Criterion evidence: 60-130 pages
+
+**EB-1A**: 180-300 pages
+- Brief: 30-50 pages
+- Forms: 15-20 pages
+- Personal docs: 10-15 pages
+- Criterion evidence: 120-210 pages
+
+---
+
+## 🎯 COMMON MISTAKES TO AVOID
+
+### 1. **Disorganized Evidence**
+✗ Random order
+✓ Logical criterion-based organization
+
+### 2. **Missing Exhibit References**
+✗ Brief mentions "media coverage" without exhibit number
+✓ "...as shown in Exhibit G, pages 75-92"
+
+### 3. **Incomplete Articles**
+✗ Only first page of multi-page article
+✓ Complete article with all pages
+
+### 4. **No Publication Context**
+✗ Article without publication credibility info
+✓ Article + circulation data + "About Us" page
+
+### 5. **Vague Exhibit Titles**
+✗ "Exhibit M: Documents"
+✓ "Exhibit M: UFC Contract and Performance Bonus Documentation"
+
+### 6. **Missing Translations**
+✗ Spanish article with no English translation
+✓ Original + certified translation + translator credentials
+
+### 7. **Poor Quality Scans**
+✗ Blurry, cut-off, or illegible documents
+✓ Clear, complete, professional-quality scans
+
+### 8. **No Source Attribution**
+✗ Screenshot without URL or date
+✓ Screenshot + URL + archive link + date accessed
+
+### 9. **Circular Evidence**
+✗ Using self-authored articles as "published material about beneficiary"
+✓ Third-party articles about beneficiary
+
+### 10. **Padding with Irrelevant Material**
+✗ Including every social media post
+✓ Selective, high-quality evidence only
+
+---
+
+## 🔧 TECHNICAL REQUIREMENTS
+
+### File Format:
+- **Submission**: Single merged PDF
+- **Individual Exhibits**: Can be PDF, DOCX, JPG (before merging)
+- **Final Package**: PDF/A format recommended for archival
+
+### PDF Properties:
+- Searchable text (OCR if scanned)
+- Bookmarks for each exhibit
+- Embedded fonts
+- Optimized file size (compress images)
+
+### Page Setup:
+- **Size**: US Letter (8.5" x 11")
+- **Orientation**: Portrait (standard), Landscape only if necessary
+- **Margins**: 1 inch on all sides
+- **Headers/Footers**: Optional, but page numbers required
+
+### Image Quality:
+- **Minimum Resolution**: 300 DPI for scanned documents
+- **Color**: Color or grayscale (not black & white 1-bit)
+- **Format**: JPEG or PNG embedded in PDF
+
+---
+
+## 📋 EXHIBIT GENERATION WORKFLOW
+
+### Step 1: Gather Materials
+- Collect all evidence files
+- Organize into folders by criterion
+- Identify missing pieces
+
+### Step 2: Categorize Documents
+- Sort into categories (forms, personal, evidence, etc.)
+- Determine exhibit numbering system
+- Plan exhibit order
+
+### Step 3: Create Individual Exhibits
+- Add cover pages with exhibit letters/numbers
+- Ensure each exhibit is complete
+- Add context/explanation pages where needed
+
+### Step 4: Generate Table of Contents
+- List all exhibits with descriptions
+- Calculate page numbers
+- Verify accuracy
+
+### Step 5: Merge into Single PDF
+- Combine in correct order
+- Add bookmarks
+- Check page numbering continuity
+
+### Step 6: Quality Check
+- Verify TOC matches contents
+- Check all cross-references
+- Ensure no missing pages
+- Test PDF readability
+
+### Step 7: Final Package
+- Add metadata to PDF
+- Optimize file size
+- Create backup copies
+
+---
+
+## 🚀 USING THIS KNOWLEDGE BASE
+
+### For Streamlit App:
+- Upload folder of files
+- Specify visa type (O-1A, O-1B, P-1A, EB-1A)
+- System auto-categorizes by filename/content
+- Generates exhibits in proper order
+- Creates Table of Contents automatically
+- Merges into single PDF
+
+### For Google Apps Script:
+- Select Drive folder with evidence
+- Choose visa type
+- Script crawls folder structure
+- Organizes files by criterion
+- Numbers exhibits correctly
+- Generates downloadable package
+
+### For Manual Organization:
+- Use this document as checklist
+- Follow visa-specific structure
+- Ensure all sections included
+- Cross-reference with examples
+
+---
+
+## 📞 SUPPORT & TROUBLESHOOTING
+
+### Common Questions:
+
+**Q: What if I don't have evidence for all criteria?**
+A: You only need 3 criteria for O-1A/O-1B, 3 for EB-1A, 2 for P-1A. Focus on your strongest.
+
+**Q: Can I combine multiple pieces of evidence into one exhibit?**
+A: Yes, especially for criterion-based organization. Example: "Exhibit F: Media Coverage (Articles 1-15)"
+
+**Q: Should the brief be early or late in the package?**
+A: Attorney preference varies. Common positions: Exhibit A/B (early) or after personal docs but before criterion evidence.
+
+**Q: How many expert letters do I need?**
+A: Quality over quantity. 3-5 strong independent expert letters better than 10 weak ones.
+
+**Q: Can I use social media as evidence?**
+A: Yes, if archived and part of demonstrating media coverage or public recognition. Must be credible sources.
+
+---
+
+## ✅ FINAL CHECKLIST
+
+Before submitting exhibit package:
+
+□ Table of Contents is first page
+□ All exhibits listed in TOC
+□ Page numbers in TOC are accurate
+□ All exhibits are in order
+□ No missing exhibits referenced in brief
+□ All non-English documents translated
+□ All forms are signed and dated
+□ Passport copies are clear and complete
+□ All criterion evidence is organized logically
+□ Expert letters include credentials
+□ Media articles include publication info
+□ URLs are archived on archive.org
+□ Payment evidence is current
+□ PDF is searchable
+□ File size is reasonable (<50MB if emailing)
+□ All pages are right-side up
+□ No pages are cut off or illegible
+□ Bookmarks are added for easy navigation
+□ Cross-references in brief match exhibit numbers
+
+---
+
+## 🎓 KNOWLEDGE BASE VERSION
+
+**Version**: 1.1
+**Last Updated**: November 29, 2025
+**Based On**:
+- Production example from comprehensive visa petition package (32 MB compressed)
+- Mega Internal V1 Visa Tool RAG knowledge base
+- O-1A, O-1B, P-1A, EB-1A regulatory criteria (8 CFR § 214.2)
+- USCIS policy memoranda
+- Successful petition structures
+
+---
+
+**END OF KNOWLEDGE BASE**
+
+Use this document in your Claude AI Project to ensure accurate, USCIS-compliant exhibit generation for all visa petition types. Update as regulations or best practices change.

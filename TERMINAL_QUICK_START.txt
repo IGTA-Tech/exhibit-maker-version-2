@@ -1,0 +1,261 @@
+================================================================================
+VISA EXHIBIT MAKER - TERMINAL QUICK START
+================================================================================
+
+📍 BASIC NAVIGATION
+================================================================================
+
+# Go to project (METHOD 1 - Full path)
+cd "/home/innovativeautomations/Visa Exhibit Maker"
+
+# Go to project (METHOD 2 - From home)
+cd ~
+cd "Visa Exhibit Maker"
+
+# Check where you are
+pwd
+
+# See what's in this folder
+ls -la
+
+# Go to Streamlit app
+cd streamlit-exhibit-generator
+
+# Go back to project root
+cd ..
+
+================================================================================
+🔍 VIEW PROJECT FILES
+================================================================================
+
+# View file contents
+cat QUICK_START_GUIDE.md
+cat ENV_QUICK_REFERENCE.txt
+cat requirements.txt
+
+# View with scrolling (press q to quit)
+less README.md
+
+# View first/last 20 lines
+head -n 20 app.py
+tail -n 20 app.py
+
+# Search for text in files
+grep -n "COMPRESSION" app.py
+
+================================================================================
+📥 GIT OPERATIONS
+================================================================================
+
+# Check status
+git status
+
+# Pull latest changes from GitHub
+git pull origin master
+
+# View recent commits
+git log --oneline -10
+
+# See remote repository
+git remote -v
+
+# View what changed
+git diff
+
+================================================================================
+🚀 RUN THE APPLICATION
+================================================================================
+
+# METHOD 1: Simple run
+cd "/home/innovativeautomations/Visa Exhibit Maker/streamlit-exhibit-generator"
+streamlit run app.py
+# Opens at: http://localhost:8501
+# Stop with: Ctrl+C
+
+# METHOD 2: With custom port
+streamlit run app.py --server.port 8080
+
+# METHOD 3: With virtual environment
+cd "/home/innovativeautomations/Visa Exhibit Maker/streamlit-exhibit-generator"
+source venv/bin/activate
+streamlit run app.py
+deactivate  # When done
+
+================================================================================
+🐍 PYTHON SETUP
+================================================================================
+
+# Install dependencies
+cd "/home/innovativeautomations/Visa Exhibit Maker/streamlit-exhibit-generator"
+pip install -r requirements.txt
+
+# Install Ghostscript (for compression)
+sudo apt-get install ghostscript
+
+# Check installations
+python3 --version
+pip list
+gs --version
+
+================================================================================
+🔧 ENVIRONMENT VARIABLES
+================================================================================
+
+# Set for current session
+export APP_ENV=production
+export PORT=8080
+
+# Check if set
+echo $PORT
+echo $APP_ENV
+
+# View all environment variables
+env
+
+================================================================================
+📝 EDIT FILES
+================================================================================
+
+# Open with nano (simple editor)
+nano app.py
+# Save: Ctrl+X, then Y, then Enter
+
+# Open with VS Code (if installed)
+code app.py
+
+================================================================================
+🔍 SEARCH & FIND
+================================================================================
+
+# Find Python files
+find . -name "*.py"
+
+# Search for text in all files
+grep -r "SMALLPDF" .
+
+# Find files containing text
+grep -rn "def compress" .
+
+================================================================================
+🛠️ COMMON TASKS
+================================================================================
+
+# TASK: Pull latest and run
+cd "/home/innovativeautomations/Visa Exhibit Maker"
+git pull origin master
+cd streamlit-exhibit-generator
+streamlit run app.py
+
+# TASK: Check what changed
+cd "/home/innovativeautomations/Visa Exhibit Maker"
+git status
+git diff
+
+# TASK: View documentation
+cd "/home/innovativeautomations/Visa Exhibit Maker"
+cat GOOGLE_CLOUD_RUN_ENV_VARS.md | less
+
+# TASK: Test compression
+cd "/home/innovativeautomations/Visa Exhibit Maker/streamlit-exhibit-generator"
+gs --version  # Check Ghostscript
+
+================================================================================
+🆘 TROUBLESHOOTING
+================================================================================
+
+# Can't find project?
+find ~ -name "Visa Exhibit Maker" -type d
+
+# Command not found?
+which streamlit
+pip install streamlit
+
+# Port already in use?
+lsof -i :8501
+kill -9 $(lsof -t -i:8501)
+
+# Permission denied?
+chmod +x filename
+sudo chown $USER:$USER filename
+
+# Git conflicts?
+git status
+git pull origin master
+
+================================================================================
+⚡ KEYBOARD SHORTCUTS
+================================================================================
+
+Ctrl+C        Stop current process
+Ctrl+Z        Pause process
+Ctrl+R        Search command history
+Ctrl+L        Clear screen
+Tab           Auto-complete
+Up Arrow      Previous command
+Ctrl+A        Go to start of line
+Ctrl+E        Go to end of line
+
+================================================================================
+🎯 QUICK ALIASES (Add to ~/.bashrc)
+================================================================================
+
+alias visa='cd "/home/innovativeautomations/Visa Exhibit Maker"'
+alias visa-run='cd "/home/innovativeautomations/Visa Exhibit Maker/streamlit-exhibit-generator" && streamlit run app.py'
+alias visa-pull='cd "/home/innovativeautomations/Visa Exhibit Maker" && git pull origin master'
+
+# After adding, reload:
+source ~/.bashrc
+
+# Then use:
+visa         # Go to project
+visa-run     # Run app
+visa-pull    # Pull updates
+
+================================================================================
+📍 PROJECT STRUCTURE
+================================================================================
+
+Visa Exhibit Maker/
+├── streamlit-exhibit-generator/        # Python web app
+│   ├── app.py                         # Main application
+│   ├── pdf_handler.py                 # PDF operations
+│   ├── google_drive.py                # Drive integration
+│   ├── compress_handler.py            # Compression
+│   └── requirements.txt               # Dependencies
+├── google-apps-script-exhibit-generator/  # Google Apps Script
+├── Examples of Single PDFs/           # Test files
+├── GOOGLE_CLOUD_RUN_ENV_VARS.md      # Env vars guide
+├── ENV_QUICK_REFERENCE.txt            # Quick reference
+├── TERMINAL_GUIDE.md                  # Full terminal guide
+└── QUICK_START_GUIDE.md               # User guide
+
+================================================================================
+🚀 COMPLETE WORKFLOW EXAMPLE
+================================================================================
+
+# 1. Open terminal (Ctrl+Alt+T)
+
+# 2. Go to project
+cd "/home/innovativeautomations/Visa Exhibit Maker"
+
+# 3. Check status and pull updates
+git status
+git pull origin master
+
+# 4. View what's available
+ls -la
+
+# 5. Navigate to Streamlit app
+cd streamlit-exhibit-generator
+
+# 6. Check dependencies
+pip list | grep streamlit
+
+# 7. Run the app
+streamlit run app.py
+
+# 8. Open browser: http://localhost:8501
+
+# 9. Stop when done: Ctrl+C
+
+================================================================================

@@ -1,0 +1,261 @@
+================================================================================
+VISA EXHIBIT MAKER - ENVIRONMENT VARIABLES QUICK REFERENCE
+Google Cloud Run Deployment
+================================================================================
+
+📋 COPY-PASTE READY CONFIGURATIONS
+
+================================================================================
+🎯 MINIMAL CONFIGURATION (Works immediately)
+================================================================================
+
+APP_ENV=production
+PORT=8080
+STREAMLIT_SERVER_PORT=8080
+STREAMLIT_SERVER_HEADLESS=true
+STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+COMPRESSION_ENABLED=true
+GHOSTSCRIPT_PATH=/usr/bin/gs
+LOG_LEVEL=INFO
+
+================================================================================
+🚀 RECOMMENDED CONFIGURATION (Best for production)
+================================================================================
+
+# Core
+APP_ENV=production
+PORT=8080
+HOST=0.0.0.0
+SECRET_KEY=GENERATE_32_CHAR_RANDOM_STRING
+
+# Streamlit
+STREAMLIT_SERVER_PORT=8080
+STREAMLIT_SERVER_ADDRESS=0.0.0.0
+STREAMLIT_SERVER_HEADLESS=true
+STREAMLIT_BROWSER_GATHER_USAGE_STATS=false
+
+# Compression
+COMPRESSION_ENABLED=true
+COMPRESSION_QUALITY=high
+GHOSTSCRIPT_PATH=/usr/bin/gs
+
+# Storage
+TEMP_DIR=/tmp
+AUTO_CLEANUP_ENABLED=true
+
+# Logging
+LOG_LEVEL=INFO
+LOG_FORMAT=json
+
+# Features
+FEATURE_GOOGLE_DRIVE=true
+FEATURE_COMPRESSION=true
+FEATURE_ARCHIVE_ORG=true
+
+================================================================================
+🔐 SECRETS (Store in Google Secret Manager)
+================================================================================
+
+GOOGLE_CREDENTIALS_JSON={"type":"service_account","project_id":"..."}
+SMALLPDF_API_KEY=your-key-here-optional
+SUPABASE_SERVICE_ROLE_KEY=your-key-if-using-supabase
+
+================================================================================
+☁️ GOOGLE DRIVE INTEGRATION (Required for Drive features)
+================================================================================
+
+GOOGLE_CREDENTIALS_JSON={"type":"service_account",...}
+GOOGLE_CLOUD_PROJECT=your-project-id
+GOOGLE_APPLICATION_CREDENTIALS=/path/to/creds.json
+
+Get credentials:
+1. https://console.cloud.google.com
+2. Create Service Account
+3. Enable Google Drive API
+4. Download JSON
+
+================================================================================
+💾 SUPABASE DATABASE (Optional - Adds multi-user & history)
+================================================================================
+
+SUPABASE_URL=https://xxxxx.supabase.co
+SUPABASE_ANON_KEY=eyJhbGc...
+SUPABASE_SERVICE_ROLE_KEY=eyJhbGc...
+SUPABASE_STORAGE_BUCKET=exhibit-packages
+DATABASE_URL=postgresql://postgres:password@db.xxxxx.supabase.co:5432/postgres
+
+Get credentials:
+https://app.supabase.com → Settings → API
+
+================================================================================
+🗜️ COMPRESSION SETTINGS
+================================================================================
+
+COMPRESSION_ENABLED=true
+COMPRESSION_QUALITY=high
+GHOSTSCRIPT_PATH=/usr/bin/gs
+SMALLPDF_API_KEY=optional-for-premium
+
+Quality options: high, balanced, maximum
+
+================================================================================
+📦 CLOUD RUN DEPLOYMENT COMMAND
+================================================================================
+
+# Basic deployment
+gcloud run deploy visa-exhibit-maker \
+  --image gcr.io/YOUR_PROJECT/visa-exhibit-maker:latest \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated \
+  --port 8080 \
+  --memory 2Gi \
+  --cpu 2 \
+  --timeout 300 \
+  --max-instances 10 \
+  --set-env-vars="APP_ENV=production,PORT=8080,COMPRESSION_ENABLED=true"
+
+# With secrets
+gcloud run deploy visa-exhibit-maker \
+  --image gcr.io/YOUR_PROJECT/visa-exhibit-maker:latest \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated \
+  --port 8080 \
+  --memory 2Gi \
+  --cpu 2 \
+  --timeout 300 \
+  --set-env-vars="APP_ENV=production,PORT=8080" \
+  --set-secrets="GOOGLE_CREDENTIALS_JSON=google-creds:latest,SMALLPDF_API_KEY=smallpdf-key:latest"
+
+================================================================================
+🔑 CREATE SECRETS IN SECRET MANAGER
+================================================================================
+
+# Google credentials
+echo -n '{"type":"service_account",...}' | \
+  gcloud secrets create google-creds --data-file=-
+
+# SmallPDF API key
+echo -n "your-smallpdf-key" | \
+  gcloud secrets create smallpdf-key --data-file=-
+
+# Supabase key
+echo -n "your-supabase-service-role-key" | \
+  gcloud secrets create supabase-key --data-file=-
+
+# Grant access to Cloud Run
+gcloud secrets add-iam-policy-binding google-creds \
+  --member="serviceAccount:YOUR_SERVICE_ACCOUNT@YOUR_PROJECT.iam.gserviceaccount.com" \
+  --role="roles/secretmanager.secretAccessor"
+
+================================================================================
+🐳 DOCKERFILE REQUIREMENTS
+================================================================================
+
+# Must include Ghostscript
+RUN apt-get update && apt-get install -y \
+    ghostscript \
+    && rm -rf /var/lib/apt/lists/*
+
+# Python dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expose port
+EXPOSE 8080
+
+# Set environment
+ENV PORT=8080
+ENV PYTHONUNBUFFERED=1
+
+# Run app
+CMD streamlit run app.py \
+    --server.port=$PORT \
+    --server.address=0.0.0.0 \
+    --server.headless=true
+
+================================================================================
+✅ VALIDATION COMMANDS
+================================================================================
+
+# Test Ghostscript
+gs --version
+
+# Test environment vars
+echo $PORT
+echo $APP_ENV
+echo $COMPRESSION_ENABLED
+
+# Test Google credentials (if JSON string)
+echo $GOOGLE_CREDENTIALS_JSON | jq .
+
+# Test Supabase connection
+curl -H "apikey: $SUPABASE_ANON_KEY" $SUPABASE_URL/rest/v1/
+
+================================================================================
+🔧 TROUBLESHOOTING
+================================================================================
+
+Issue: Port binding error
+Fix: Make sure PORT=8080 and Streamlit uses it
+
+Issue: Ghostscript not found
+Fix: Install in Dockerfile: apt-get install ghostscript
+
+Issue: Google Drive auth fails
+Fix: Check GOOGLE_CREDENTIALS_JSON format with: echo $VAR | jq .
+
+Issue: Memory errors
+Fix: Increase Cloud Run memory: --memory 4Gi
+
+Issue: Timeout
+Fix: Increase timeout: --timeout 600
+
+================================================================================
+💰 COST ESTIMATE
+================================================================================
+
+FREE Components:
+- Google Drive API: FREE
+- Ghostscript: FREE
+- PyMuPDF: FREE
+- Cloud Run: 2M requests/month FREE
+
+Optional Paid:
+- SmallPDF: $12/month
+- Supabase: $25/month
+- Cloud Run (after free): ~$0.000024/request
+- Cloud Storage: $0.02/GB/month
+
+Typical monthly cost (10K exhibits): $15-40
+
+================================================================================
+📞 QUICK LINKS
+================================================================================
+
+GitHub Repo: https://github.com/IGTA-Tech/visa-exhibit-maker
+Cloud Run Docs: https://cloud.google.com/run/docs
+Secret Manager: https://cloud.google.com/secret-manager/docs
+Streamlit Cloud: https://docs.streamlit.io/deploy/streamlit-community-cloud
+SmallPDF API: https://smallpdf.com/developers
+Supabase: https://app.supabase.com
+
+================================================================================
+🎯 PRIORITY ORDER
+================================================================================
+
+1. ✅ Set basic env vars (APP_ENV, PORT, etc)
+2. ✅ Install Ghostscript in Dockerfile
+3. ✅ Add Google Drive credentials (if needed)
+4. ⚠️ Optional: Add SmallPDF key
+5. ⚠️ Optional: Add Supabase credentials
+6. ✅ Deploy to Cloud Run
+7. ✅ Test basic PDF upload & compression
+8. ✅ Test Google Drive integration
+9. ✅ Monitor logs
+
+================================================================================
+LAST UPDATED: December 3, 2025
+VERSION: 1.0
+================================================================================

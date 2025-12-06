@@ -1,0 +1,35 @@
+# Streamlit Visa Exhibit Generator - Dependencies
+
+# Core framework
+streamlit>=1.28.0
+
+# PDF handling
+PyPDF2>=3.0.0
+reportlab>=4.0.0
+PyMuPDF>=1.23.0  # For PDF compression (Tier 2)
+
+# Google Drive integration
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.1
+
+# HTTP requests
+requests>=2.31.0
+
+# File handling
+python-magic>=0.4.27
+
+# Date/time utilities
+python-dateutil>=2.8.2
+
+# Optional: API2PDF for URL to PDF conversion
+# api2pdf>=2.0.0
+
+# Optional: OCR support
+# pytesseract>=0.3.10
+# Pillow>=10.0.0
+
+# Optional: Document conversion
+# python-docx>=0.8.11
+# openpyxl>=3.1.0
