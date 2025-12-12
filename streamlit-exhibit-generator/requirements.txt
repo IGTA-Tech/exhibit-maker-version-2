@@ -1,61 +1,111 @@
 # Streamlit Visa Exhibit Generator V2.0 - Dependencies
+# =====================================================
+# Complete dependency list for all V2 features
 
-# Core framework
+# =================
+# CORE FRAMEWORK
+# =================
 streamlit>=1.28.0
 
-# PDF handling
-PyPDF2>=3.0.0
-reportlab>=4.0.0
-PyMuPDF>=1.23.0  # For PDF compression (Tier 2)
+# =================
+# PDF HANDLING
+# =================
+PyPDF2>=3.0.0           # PDF reading/writing
+reportlab>=4.0.0        # PDF generation (TOC, labels)
+PyMuPDF>=1.23.0         # PDF compression (Tier 2), thumbnails
 
-# Google Drive integration
+# Thumbnail generation (requires poppler-utils on system)
+pdf2image>=1.16.0
+
+# =================
+# DOCX GENERATION
+# =================
+# For professional legal documents (cover letters, briefs)
+python-docx>=1.0.0
+
+# =================
+# AI / RAG
+# =================
+# Claude API for classification and chat
+anthropic>=0.18.0
+
+# Gemini File Search RAG (NEW - replaces DIY RAG)
+google-genai>=0.3.0
+
+# =================
+# DRAG-AND-DROP UI
+# =================
+streamlit-sortables>=0.2.0
+
+# =================
+# GOOGLE DRIVE
+# =================
 google-api-python-client>=2.100.0
 google-auth>=2.23.0
 google-auth-oauthlib>=1.1.0
 google-auth-httplib2>=0.1.1
 
-# HTTP requests
-requests>=2.31.0
-
-# File handling
-python-magic>=0.4.27
-
-# Date/time utilities
-python-dateutil>=2.8.2
-
-# NEW V2.0: Drag-and-Drop (Feature 2, 5)
-streamlit-sortables>=0.1.0
-
-# NEW V2.0: Database (Supabase)
+# =================
+# DATABASE
+# =================
 supabase>=2.0.0
 python-dotenv>=1.0.0
 
-# NEW V2.0: AI Classification (Feature 4)
-anthropic>=0.18.0
+# =================
+# HTTP / NETWORKING
+# =================
+requests>=2.31.0
+aiohttp>=3.8.0          # Async operations
 
-# NEW V2.0: OAuth (Google Drive)
-Authlib>=1.3.2
-
-# NEW V2.0: Email (Feature 8)
+# =================
+# EMAIL DELIVERY
+# =================
 sendgrid>=6.9.0
 
-# NEW V2.0: QR Codes (Feature 6)
+# =================
+# QR CODES
+# =================
 qrcode>=7.3
-pillow>=9.0.0
+pillow>=10.0.0          # Also needed for thumbnails
 
-# NEW V2.0: Async/Background (Feature 7)
-aiohttp>=3.8.0
+# =================
+# UTILITIES
+# =================
+pydantic>=2.0.0         # Data validation
+tenacity>=8.2.0         # Retry logic
+python-magic>=0.4.27    # File type detection
+python-dateutil>=2.8.2  # Date handling
 
-# NEW V2.0: Utilities
-pydantic>=2.0.0
-tenacity>=8.2.0
+# =================
+# OAUTH
+# =================
+Authlib>=1.3.2
 
-# Optional: API2PDF for URL to PDF conversion
+# =================
+# OPTIONAL DEPENDENCIES
+# =================
+# Uncomment as needed:
+
+# URL to PDF conversion (requires API key)
 # api2pdf>=2.0.0
 
-# Optional: OCR support
+# OCR for scanned documents
 # pytesseract>=0.3.10
 
-# Optional: Document conversion
-# python-docx>=0.8.11
+# Excel file support
 # openpyxl>=3.1.0
+
+# =================
+# SYSTEM DEPENDENCIES (not pip installable)
+# =================
+# These must be installed on the system:
+#
+# 1. Ghostscript (for PDF compression Tier 1)
+#    - Linux: apt-get install ghostscript
+#    - Mac: brew install ghostscript
+#    - Windows: Download from ghostscript.com
+#
+# 2. Poppler (for pdf2image thumbnails)
+#    - Linux: apt-get install poppler-utils
+#    - Mac: brew install poppler
+#    - Windows: Download from poppler.freedesktop.org
